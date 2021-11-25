@@ -117,6 +117,7 @@ double Funkcja(int f, double x) // 2 funkcje do wyboru
     switch (f) {
     case 1: return (x * x * x) - (x * x) - x + 2;
     case 2: return sin(x * x - x + 1 / 3.0) + 0.5 * x;
+    default: return 0;
     }    
 }
 
