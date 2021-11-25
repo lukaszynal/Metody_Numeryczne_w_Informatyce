@@ -2,9 +2,7 @@
 // Autor: Szynal Lukasz, 150063, 2021/2022, Informatyka, D2, II semestr
 
 #include <iostream>
-#include <iomanip>
-#include <cstdlib>
-#include <vector>
+#include <cmath>
 
 using namespace std;
 
