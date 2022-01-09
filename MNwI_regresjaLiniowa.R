@@ -1,4 +1,4 @@
-# Program: MNwI_projekt, 21.11 .2021
+# Program: MNwI_regresjaLiniowa, 21.11.2021
 # Autor: Szynal Lukasz, 150063, 2021 / 2022, Informatyka, D2, II semestr
 
 # Analiza zależności PM2.5 od temperatury na podstawie danych z Amasady USA w Pekinie.
