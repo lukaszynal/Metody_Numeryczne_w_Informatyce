@@ -1,4 +1,4 @@
-// Program: MNwI_zadanie1, 21.11.2021
+// Program: MNwI_wyznacznikMacierzyOrazPierwiastkiRownaniaNieliniowego, 21.11.2021
 // Autor: Szynal Lukasz, 150063, 2021/2022, Informatyka, D2, II semestr
 
 #include <iostream>
