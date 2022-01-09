@@ -1,10 +1,5 @@
-// Program: MNwI_zadanie1, 11.11.2021
+// Program: MNwI_interpolacjaOrazCalkaMetodaTrapezow, 11.11.2021
 // Autor: Szynal Lukasz, 150063, 2021/2022, Informatyka, D2, II semestr
-
-#include <iostream>
-#include <cmath>
-
-using namespace std;
 
 /*
 Przygotować narzędzie do wyznaczania wartości interpolowanych oraz ekstrapolowanych funkcji dyskretnej, stosując interpolacje wielomianową.
@@ -15,7 +10,7 @@ Obserwowano ruch w sieci z interwałem 1 godzina. Wyniki zestawiono w poniższej
 Godzina	Mb/s	Godzina	Mb/s
 1:00		0,10	12:00		8,00
 2:00		0,11	13:00		3,2
-3:00		0,9	    14:00		8,00
+3:00		0,9	14:00		8,00
 4:00		0,12	15:00		6,50
 5:00		0,42	16:00		1,20
 6:00		0,10	17:00		1,90
@@ -24,12 +19,17 @@ Godzina	Mb/s	Godzina	Mb/s
 9:00		5,27	20:00		0,25
 10:00		4,09	21:00		0,20
 11:00		8,00	22:00		0,19
-                    23:00		0,20
+                    	23:00		0,20
 
 Przygotować narzędzie, które umożliwi wyznaczanie w miarę jak najdokładniejsze wartości obciążeń o dowolnej godzinie
 (pomiędzy pomiarami), a i ułatwi inwestorom oszacowanie obciążenie sieci w najbliższej przyszłości?
 Za pomocą utworzonego narzędzia wyznaczyć, jaka była wielkość używanego pasma (w Mb/s) o godz. 14:45 oraz 15:30?
 */
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
 
 /*Funkcje interpolacji wielomianu wedlug wzoru Newtona*/
 
